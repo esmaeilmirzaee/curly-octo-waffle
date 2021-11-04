@@ -1,7 +1,7 @@
 import { DataTypes } from 'sequelize';
 import db from '../utils/connect';
 
-const GigModel = db.define('Gig', {
+const GigModel = db.define('gig', {
     title: {
         type: DataTypes.STRING,
         allowNull: false,
